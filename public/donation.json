@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "picture": "/public/image/1.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "rgba(0, 82, 255, 0.20)",
+      "card_bg": "rgba(0, 82, 255, 0.15)",
+      "text_color": "#0052FF",
+      "button_bg": "#e74c3c",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": "$199.99"
+    },
+    {
+        "id": 2,
+      "picture": "/public/image/2.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#rgba(255, 68, 74, 0.20)",
+      "card_bg": "rgba(255, 68, 74, 0.15)",
+      "text_color": "#FF444A",
+      "button_bg": "#2ecc71",
+      "description": "Suspendisse potenti. Fusce auctor ipsum nec metus.",
+      "price": "$49.99"
+    },
+    {
+        "id": 3,
+      "picture": "/public/image/3.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "rgba(121, 194, 63, 0.20)",
+      "card_bg": "rgba(121, 194, 63, 0.15)",
+      "text_color": "#79C23F",
+      "button_bg": "#f1c40f",
+      "description": "Aenean pretium quam in ex ultrices, eu auctor leo volutpat.",
+      "price": "$79.99"
+    },
+    {
+        "id": 4,
+      "picture": "/public/image/4.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "rgba(248, 113, 71, 0.20)",
+      "card_bg": "rgba(248, 113, 71, 0.15)",
+      "text_color": "#F87147",
+      "button_bg": "#3498db",
+      "description": "Vestibulum tincidunt odio eget rhoncus.",
+      "price": "$29.99"
+    },
+    {
+        "id": 5,
+        "picture": "/public/image/4.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "button_bg": "#3498db",
+        "description": "Vestibulum tincidunt odio eget rhoncus.",
+        "price": "$29.99"
+    },
+    {
+        "id": 6,
+        "picture": "/public/image/3.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "button_bg": "#f1c40f",
+        "description": "Aenean pretium quam in ex ultrices, eu auctor leo volutpat.",
+        "price": "$79.99"
+    },
+    {
+        "id": 7,
+        "picture": "/public/image/2.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "button_bg": "#2ecc71",
+        "description": "Suspendisse potenti. Fusce auctor ipsum nec metus.",
+        "price": "$49.99"
+    },
+    {
+        "id": 8,
+        "picture": "/public/image/1.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "button_bg": "#e74c3c",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$199.99"
+    },
+    {
+        "id": 9,
+        "picture": "/public/image/1.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "button_bg": "#e74c3c",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$199.99"
+    },
+    {
+        "id": 10,
+        "picture": "/public/image/2.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "button_bg": "#2ecc71",
+        "description": "Suspendisse potenti. Fusce auctor ipsum nec metus.",
+        "price": "$49.99"
+    },
+    {
+        "id": 11,
+        "picture": "/public/image/3.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "button_bg": "#f1c40f",
+        "description": "Aenean pretium quam in ex ultrices, eu auctor leo volutpat.",
+        "price": "$79.99"
+    },
+    {
+        "id": 12,
+        "picture": "/public/image/4.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "button_bg": "#3498db",
+        "description": "Vestibulum tincidunt odio eget rhoncus.",
+        "price": "$29.99"
+    }
+  ]
+  
