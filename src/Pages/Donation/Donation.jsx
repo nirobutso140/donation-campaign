@@ -17,6 +17,7 @@ const Donation = () => {
                 donateItem.map(item=> <DonateItems item={item}/>)
               }
            </div>
+           <button className="btn btn-success mx-auto block">See All</button>
         </>
     );
 };

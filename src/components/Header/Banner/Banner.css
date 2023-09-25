@@ -1,0 +1,5 @@
+.banner{
+    background-image: url('/public/image/banner.png'),linear-gradient(rgba(255,255,255,0.80),rgba(255,255,255,0.80));
+    background-blend-mode: overlay; 
+   
+}

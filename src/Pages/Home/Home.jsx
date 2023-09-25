@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import Donets from "../../components/Donets/Donets";
+import Banner from "../../components/Header/Banner/Banner";
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
     
     return (
         <>
+           <Banner/>
            <Donets dontes={dontes}/>
         </>
     );
