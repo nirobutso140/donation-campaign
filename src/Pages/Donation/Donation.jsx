@@ -12,7 +12,7 @@ const Donation = () => {
     console.log(donateItem);
     return (
         <>
-           <div>
+           <div className="grid grid-cols-1 md:grid-cols-2 place-content-center gap-5 p-5">
               {
                 donateItem.map(item=> <DonateItems item={item}/>)
               }
