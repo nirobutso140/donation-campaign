@@ -2,7 +2,7 @@
 
 const DonateItems = ({ item }) => {
 
-    const {img, category, image, title, description, price, text_color, category_bg, card_bg} = item
+    const {img, category , title, price, text_color, category_bg, card_bg} = item
 
     return (
         <>

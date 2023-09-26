@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import './Navbar.css'
-import Banner from "../Banner/Banner";
 const Navbar = () => {
     return (
         <>
