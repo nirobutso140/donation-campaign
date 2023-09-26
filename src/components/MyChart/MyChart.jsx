@@ -2,26 +2,36 @@ import { Chart } from 'react-google-charts';
 
 
 const MyChart = () => {
+
+    const donationItems = JSON.parse(localStorage.getItem('item'))
+    
+    const total = 12;
+    const subtractedValue =  donationItems.length
+    console.log(subtractedValue);
+    const remainingPercentage = ((total - subtractedValue) / total) * 100;
+
     const data = [
         ['Task', 'Hours per Day'],
-        ['Your Donation', 1],
-        ['Total Donation', 12]
+        ['Your Donation', 100 - remainingPercentage],
+        ['Total Donation', remainingPercentage]
         
     ];
 
     const options = {
         title: 'My Daily Activities',
-        is3D: false,
+        is3D: true,
     };
     return (
         <>
-            <Chart
+           <div className='w-[100%]'>
+           <Chart
                 chartType="PieChart"
                 width={'100%'}
                 height={'400px'}
                 data={data}
                 options={options}
             />
+           </div>
         </>
     );
 };
