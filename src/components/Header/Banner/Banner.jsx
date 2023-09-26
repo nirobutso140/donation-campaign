@@ -7,7 +7,7 @@ const Banner = () => {
               
               <div className="hero-content text-center">
                    <div>
-                   <h1 className="font-bold text-5xl mb-8">I Grow By Helping People In Need</h1>
+                   <h1 className="font-bold text-5xl mb-8 heading">I Grow By Helping People In Need</h1>
                     
                     <form>
                        <input className="py-[14px] px-8" type="text" name="" placeholder="Search here...." />

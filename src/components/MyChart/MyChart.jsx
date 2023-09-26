@@ -18,7 +18,7 @@ const MyChart = () => {
     ];
 
     const options = {
-        title: 'My Daily Activities',
+        title: 'Your donation From Total Donation',
         is3D: true,
     };
     return (

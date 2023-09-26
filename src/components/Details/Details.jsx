@@ -2,7 +2,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Details = ({donate}) => {
-    const {image, title, description, price, text_color} = donate
+    const {id, image, title, description, price, text_color} = donate
 
     const giveDonation = () =>{
         const addedItems = []
@@ -10,11 +10,18 @@ const Details = ({donate}) => {
         if(!donationItems){
              addedItems.push(donate)
              localStorage.setItem('item',JSON.stringify(addedItems))
+             toast("Thanks For Your Donation!!");
         }else{
-            addedItems.push(...donationItems , donate) 
-            localStorage.setItem('item',JSON.stringify(addedItems))
+            const isExists = donationItems.find(myDonate => myDonate.id===id)
+            if(!isExists){
+                addedItems.push(...donationItems , donate) 
+                localStorage.setItem('item',JSON.stringify(addedItems))
+            }else{
+                toast.error("Already Doante");
+            }
+           
         }
-        toast("Thanks For Your Donation!!");
+        
         
     }
 
