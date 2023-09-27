@@ -1,5 +1,6 @@
 
 
+
 const DonateItems = ({ item }) => {
 
     const {img, category , title, price, text_color, category_bg, card_bg} = item
@@ -13,7 +14,7 @@ const DonateItems = ({ item }) => {
                     <h2 className="card-title">{title}</h2>
                     <p style={{color: text_color}}>${price}</p>
                     <div className="card-actions">
-                        <button style={{background: text_color, color: "white"}} className="btn border-0">View Datails</button>
+                        <button style={{background: text_color, color: "white"}} className="btn border-0">View Datails</button> 
                     </div>
                 </div>
             </div>
