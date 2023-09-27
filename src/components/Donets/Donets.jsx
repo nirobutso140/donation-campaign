@@ -1,11 +1,11 @@
 import Donate from "../Donate/Donate";
 
-const Donets = ({dontes}) => {
+const Donets = ({ categoryFltered}) => {
     return (
         <>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-content-center gap-y-5 p-5">
               {
-                dontes?.map(donate => <Donate key={donate.id} donate={donate}/>)
+                categoryFltered.map(donate => <Donate key={donate.id} donate={donate}/>)
               }
           </div>
         </>
@@ -13,3 +13,4 @@ const Donets = ({dontes}) => {
 };
 
 export default Donets;
+
