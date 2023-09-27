@@ -7,7 +7,6 @@ const MyChart = () => {
     
     const total = 12;
     const subtractedValue =  donationItems.length
-    console.log(subtractedValue);
     const remainingPercentage = ((total - subtractedValue) / total) * 100;
 
     const data = [

@@ -1,11 +1,13 @@
 import {useEffect, useState } from "react";
-import swal from 'sweetalert';
+
 import DonateItems from "../../components/DonateItems/DonateItems";
 
 const Donation = () => {
   
    const [donateItem, setDonateItem] = useState([])
    const [noDataFound, setNoDataFound] = useState('')
+   const [isButtonVisible, setIsButtonVisible] = useState(true);
+   const [isShow, setIsShow] = useState(false)
 
     useEffect(()=>{
         const donationItems = JSON.parse(localStorage.getItem('item'))
@@ -18,17 +20,22 @@ const Donation = () => {
     }, [])
     
     
-   
+    const handleButtonClick = () => { 
+        setIsShow(!isShow)
+        setIsButtonVisible(false);
+      };
    
     return (
         <> 
            
            <div className="grid grid-cols-1 md:grid-cols-2 place-content-center gap-5 p-5">
               
-                  {noDataFound? <p className="text-center w-[100%]">{noDataFound}</p> : 
-                  donateItem.map(item=> <DonateItems key={item.id} item={item}/>)} 
+                  {noDataFound? <p className="text-center w-[100%]">{noDataFound}</p>: 
+                    isShow? donateItem.map(item=> <DonateItems key={item.id} item={item}/>):
+                    donateItem.slice(0,4).map(item=> <DonateItems key={item.id} item={item}/>)
+                 } 
            </div>
-           <button className="btn btn-success mx-auto block">See All</button>
+          { isButtonVisible && <button onClick={handleButtonClick} className="btn btn-success mx-auto block">See All</button>}
         </>
     );
 };

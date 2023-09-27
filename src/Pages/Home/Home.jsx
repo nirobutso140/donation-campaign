@@ -9,7 +9,7 @@ const Home = () => {
     
     return (
         <>
-           <Banner/>
+           <Banner dataForSearch = {dontes}/>
            <Donets dontes={dontes}/>
         </>
     );
