@@ -35,7 +35,13 @@ const Donation = () => {
                     donateItem.slice(0,4).map(item=> <DonateItems key={item.id} item={item}/>)
                  } 
            </div>
-          { isButtonVisible && <button onClick={handleButtonClick} className="btn btn-success mx-auto block">See All</button>}
+          {
+            donateItem.length > 4 && <div>
+            { isButtonVisible && <button onClick={handleButtonClick} className="btn btn-success mx-auto block">See All</button>}
+           </div>
+          }
+
+          {/* donateItem */}
         </>
     );
 };

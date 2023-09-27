@@ -1,9 +1,12 @@
+
 import { Chart } from 'react-google-charts';
 
 
 const MyChart = () => {
 
     const donationItems = JSON.parse(localStorage.getItem('item'))
+
+
     
     const total = 12;
     const subtractedValue =  donationItems.length
@@ -22,6 +25,7 @@ const MyChart = () => {
     };
     return (
         <>
+          
            <div className='w-[100%]'>
            <Chart
                 chartType="PieChart"

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./Banner.css"
 const Banner = ({dataForSearch}) => {
-console.log(dataForSearch);
+
 
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredItems, setFilteredItems] = useState(dataForSearch);
